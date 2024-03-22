@@ -7,11 +7,7 @@ const port = process.env.PORT || 7000
 connectToMongo();
 
 const app = express()
-app.use(cors({
-  origin: '*',
-  methods: ["POST", "GET"],
-  credentials: true
-}));
+app.use(cors());
 
 app.get('/', (req, res)=>{
   res.send("<h1>Hello</h1>")

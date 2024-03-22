@@ -103,5 +103,9 @@ router.post('/login', [
     }
 })
 
+router.get('/', (req, res)=>{
+    res.json({msg: "You are at /api/auth/ route"})
+})
+
 
 module.exports = router;
