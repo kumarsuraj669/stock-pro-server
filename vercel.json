@@ -11,12 +11,5 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ],
-    ,
-    "functions": {
-        "api/auth/login": {
-          "runtime": "@vercel/node",
-          "maxDuration": 30 
-        }
-    }
+    ]
 }
