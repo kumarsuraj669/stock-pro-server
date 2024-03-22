@@ -7,9 +7,9 @@ const port = process.env.PORT || 7000
 connectToMongo();
 
 const app = express()
-var corsOptions = {
-  origin: "http://localhost:3000"
-};
+// var corsOptions = {
+//   origin: "http://localhost:3000"
+// };
 
 app.use(cors(corsOptions));
 
