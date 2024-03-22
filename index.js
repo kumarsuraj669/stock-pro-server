@@ -11,7 +11,7 @@ const app = express()
 //   origin: "http://localhost:3000"
 // };
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.get('/', (req, res)=>{
   res.send("<h1>Hello</h1>")
